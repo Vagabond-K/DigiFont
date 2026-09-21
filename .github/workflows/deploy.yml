@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'DigiFont/**'
+      - '.github/workflows/deploy.yml'
 
 permissions:
   contents: read
