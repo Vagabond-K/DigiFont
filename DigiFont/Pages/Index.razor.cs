@@ -35,12 +35,12 @@ namespace DigiFont.Pages
                 new FontSettingMetadata("7 Segment", typeof(SevenSegmentFontSetting), new SevenSegmentFontFileBuilder
                 {
                     DigitalFont = new SevenSegmentFont(){ Size = 800, SlantAngle = 10, CustomBinaryCodes = new Dictionary<char, long>() },
-                    FamilyName = "VagabondK-7Segment"
+                    FamilyName = "DigiFont-7Segment"
                 }, this, OnSettingChanged),
                 new FontSettingMetadata("5×7 Dot Matrix", typeof(RoundedRectCell5x7FontSetting), new DigitalFontFileBuilder<RoundedRectCell5x7Font>
                 {
                     DigitalFont = new RoundedRectCell5x7Font(){ Size = 800, CustomBinaryCodes = new Dictionary<char, long>() },
-                    FamilyName = "VagabondK-5x7DotMatrix"
+                    FamilyName = "DigiFont-5x7DotMatrix"
                 }, this, OnSettingChanged),
             ];
 
