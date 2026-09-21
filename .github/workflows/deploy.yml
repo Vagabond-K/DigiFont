@@ -40,7 +40,7 @@ jobs:
 
       # Base href 경로를 저장소 이름에 맞게 변경 (서브 디렉터리 라우팅 문제 해결)
       - name: Rewrite base href
-        uses: SteveLwely/change-github-pages-base-action@v1
+        uses: DigiFont/change-github-pages-base-action@v1
         with:
           html_path: release/wwwroot/index.html
 
