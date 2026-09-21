@@ -1,0 +1,54 @@
+name: Deploy Blazor to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x' # 사용 중인 .NET 버전 (예: 6.0.x, 7.0.x, 8.0.x, 9.0.x)
+
+      - name: Publish Blazor WebAssembly
+        run: dotnet publish DigiFont/DigiFont.csproj -c Release -o release
+
+      # GitHub Pages 라우팅 및 404 오류 방지 처리
+      - name: Add .nojekyll & SPA 404 handling
+        run: |
+          touch release/wwwroot/.nojekyll
+          cp release/wwwroot/index.html release/wwwroot/404.html
+
+      # Base href 경로를 저장소 이름에 맞게 변경 (서브 디렉터리 라우팅 문제 해결)
+      - name: Rewrite base href
+        uses: SteveLwely/change-github-pages-base-action@v1
+        with:
+          html_path: release/wwwroot/index.html
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'release/wwwroot'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
