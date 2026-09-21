@@ -1,0 +1,47 @@
+﻿@font-face {
+    font-family: 'Anton';
+    font-style: normal;
+    src: url(../fonts/Anton-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans KR';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/IBMPlexSansKR-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/IBMPlexSansKR-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans KR';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/IBMPlexSansKR-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/IBMPlexSansKR-Bold.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/GowunBatang-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Gowun Batang';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/GowunBatang-Bold.woff2) format('woff2');
+}

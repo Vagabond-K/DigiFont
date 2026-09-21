@@ -1,0 +1,49 @@
+﻿@inherits LayoutComponentBase
+
+<Title />
+
+<MudThemeProvider Theme="@Themes.DefaultTheme" IsDarkMode="true" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout Style="height: 100dvh;display: flex;flex-direction: column">
+    <MudAppBar Elevation="10" ToolBarClass="px-0">
+        <MudContainer>
+            <MudToolBar Class="mx-0 px-0">
+                <a style="display: flex;align-items: center;font-family: Anton;font-size: 28px;white-space: nowrap;-webkit-user-select: none;-ms-user-select: none;user-select: none;" href="/">
+                    DigiFont
+                </a>
+                <MudSpacer />
+                <MudIconButton Icon="@Icons.Custom.Brands.GitHub" Href="https://github.com/Vagabond-K/DigiFont" Target="_blank" aria-label="GitHub" title="GitHub" />
+                <a class="ms-1" href="https://buymeacoffee.com/vagabondk" target="_blank"><img style="display:block" src="images/buymeacoffee.png" alt="Buy me a soju" /></a>
+            </MudToolBar>
+        </MudContainer>
+    </MudAppBar>
+
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.Large" Class="my-5">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+
+    <footer>
+        <MudContainer Class="my-8">
+            <MudStack AlignItems="AlignItems.Center">
+                <MudStack Row Justify="Justify.Center" Wrap="Wrap.Wrap">
+                    <MudStack Row AlignItems="AlignItems.Center" Justify="Justify.Center" Spacing="1">
+                        <MudIcon Icon="@Icons.Material.Filled.Mail" Size="Size.Small" /><MudLink Href="mailto:k@vagabond.builders" Typo="Typo.body2">k@vagabond.builders</MudLink>
+                    </MudStack>
+                    <MudStack Row AlignItems="AlignItems.Center" Justify="Justify.Center" Spacing="1">
+                        <MudIcon Icon="@Icons.Material.Filled.LocationOn" Size="Size.Small" /><MudText Typo="Typo.body2">Changwon-si, Gyeongsangnam-do, Republic of Korea</MudText>
+                    </MudStack>
+                </MudStack>
+                <MudText Typo="Typo.body2" Align="Align.Center">Copyright © 2026 <a style="text-decoration:underline" href="https://k.vagabond.builders" target="_blank">Vagabond K</a>. All Rights Reserved.</MudText>
+            </MudStack>
+        </MudContainer>
+    </footer>
+</MudLayout>
+
+<MudScrollToTop TopOffset="100">
+    <MudFab Color="Color.Dark" StartIcon="@Icons.Material.Filled.KeyboardDoubleArrowUp" />
+</MudScrollToTop>

@@ -1,0 +1,125 @@
+<svg color="white" width="1920" height="1920" viewBox="0 0 1920 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <rect id="r" style="fill:currentColor; fill-opacity:0.02; stroke:currentColor; stroke-width:0.1" width="2715.29" height="2715.29" y="-397.65"/>
+  </defs>
+  <use href="#r" x="2020" transform="rotate(-59.44,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="-59.44 960 960; -14.44 960 960; -59.44 960 960" keyTimes="0; 0.5; 1" dur="11.64s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1996" transform="rotate(12.22,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="12.22 960 960; 57.22 960 960; 12.22 960 960" keyTimes="0; 0.5; 1" dur="7.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1972" transform="rotate(44.5,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="44.5 960 960; 89.5 960 960; 44.5 960 960" keyTimes="0; 0.5; 1" dur="9.35s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1948" transform="rotate(79.3,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="79.3 960 960; 124.3 960 960; 79.3 960 960" keyTimes="0; 0.5; 1" dur="17.12s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1924" transform="rotate(155.23,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="155.23 960 960; 200.23 960 960; 155.23 960 960" keyTimes="0; 0.5; 1" dur="9.42s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1900" transform="rotate(159.27,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="159.27 960 960; 204.27 960 960; 159.27 960 960" keyTimes="0; 0.5; 1" dur="10.09s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1876" transform="rotate(224.96,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="224.96 960 960; 269.96 960 960; 224.96 960 960" keyTimes="0; 0.5; 1" dur="10.97s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1852" transform="rotate(266.48,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="266.48 960 960; 311.48 960 960; 266.48 960 960" keyTimes="0; 0.5; 1" dur="10.21s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1828" transform="rotate(298.26,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="298.26 960 960; 343.26 960 960; 298.26 960 960" keyTimes="0; 0.5; 1" dur="15.33s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1804" transform="rotate(363.92,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="363.92 960 960; 408.92 960 960; 363.92 960 960" keyTimes="0; 0.5; 1" dur="18.23s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1780" transform="rotate(420.61,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="420.61 960 960; 465.61 960 960; 420.61 960 960" keyTimes="0; 0.5; 1" dur="17.57s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1756" transform="rotate(458.34,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="458.34 960 960; 503.34 960 960; 458.34 960 960" keyTimes="0; 0.5; 1" dur="10.64s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1732" transform="rotate(507.39,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="507.39 960 960; 552.39 960 960; 507.39 960 960" keyTimes="0; 0.5; 1" dur="11.28s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1708" transform="rotate(536.33,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="536.33 960 960; 581.33 960 960; 536.33 960 960" keyTimes="0; 0.5; 1" dur="9.9s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1684" transform="rotate(577.61,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="577.61 960 960; 622.61 960 960; 577.61 960 960" keyTimes="0; 0.5; 1" dur="10.31s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1660" transform="rotate(646.49,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="646.49 960 960; 691.49 960 960; 646.49 960 960" keyTimes="0; 0.5; 1" dur="19.05s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1636" transform="rotate(661.94,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="661.94 960 960; 706.94 960 960; 661.94 960 960" keyTimes="0; 0.5; 1" dur="13.72s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1612" transform="rotate(705.18,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="705.18 960 960; 750.18 960 960; 705.18 960 960" keyTimes="0; 0.5; 1" dur="18.15s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1588" transform="rotate(772.08,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="772.08 960 960; 817.08 960 960; 772.08 960 960" keyTimes="0; 0.5; 1" dur="13.42s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1564" transform="rotate(788.58,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="788.58 960 960; 833.58 960 960; 788.58 960 960" keyTimes="0; 0.5; 1" dur="11.71s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1540" transform="rotate(857.38,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="857.38 960 960; 902.38 960 960; 857.38 960 960" keyTimes="0; 0.5; 1" dur="7.83s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1516" transform="rotate(919.12,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="919.12 960 960; 964.12 960 960; 919.12 960 960" keyTimes="0; 0.5; 1" dur="20.35s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1492" transform="rotate(937.55,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="937.55 960 960; 982.55 960 960; 937.55 960 960" keyTimes="0; 0.5; 1" dur="11.85s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1468" transform="rotate(999.55,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="999.55 960 960; 1044.55 960 960; 999.55 960 960" keyTimes="0; 0.5; 1" dur="16.29s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1444" transform="rotate(1029.21,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1029.21 960 960; 1074.21 960 960; 1029.21 960 960" keyTimes="0; 0.5; 1" dur="13.91s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1420" transform="rotate(1082.57,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1082.57 960 960; 1127.57 960 960; 1082.57 960 960" keyTimes="0; 0.5; 1" dur="20.73s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1396" transform="rotate(1106.44,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1106.44 960 960; 1151.44 960 960; 1106.44 960 960" keyTimes="0; 0.5; 1" dur="16.03s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1372" transform="rotate(1155.3,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1155.3 960 960; 1200.3 960 960; 1155.3 960 960" keyTimes="0; 0.5; 1" dur="8.75s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1348" transform="rotate(1192.75,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1192.75 960 960; 1237.75 960 960; 1192.75 960 960" keyTimes="0; 0.5; 1" dur="21.79s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1324" transform="rotate(1247.02,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1247.02 960 960; 1292.02 960 960; 1247.02 960 960" keyTimes="0; 0.5; 1" dur="10.38s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1300" transform="rotate(1301.62,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1301.62 960 960; 1346.62 960 960; 1301.62 960 960" keyTimes="0; 0.5; 1" dur="15.16s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1276" transform="rotate(1372.03,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1372.03 960 960; 1417.03 960 960; 1372.03 960 960" keyTimes="0; 0.5; 1" dur="19.45s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1252" transform="rotate(1416.25,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1416.25 960 960; 1461.25 960 960; 1416.25 960 960" keyTimes="0; 0.5; 1" dur="9.36s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1228" transform="rotate(1443.8,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1443.8 960 960; 1488.8 960 960; 1443.8 960 960" keyTimes="0; 0.5; 1" dur="7.79s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1204" transform="rotate(1487.91,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1487.91 960 960; 1532.91 960 960; 1487.91 960 960" keyTimes="0; 0.5; 1" dur="19.52s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1180" transform="rotate(1513.28,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1513.28 960 960; 1558.28 960 960; 1513.28 960 960" keyTimes="0; 0.5; 1" dur="13.66s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1156" transform="rotate(1571.43,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1571.43 960 960; 1616.43 960 960; 1571.43 960 960" keyTimes="0; 0.5; 1" dur="8.48s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1132" transform="rotate(1628.92,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1628.92 960 960; 1673.92 960 960; 1628.92 960 960" keyTimes="0; 0.5; 1" dur="8.46s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1108" transform="rotate(1659.18,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1659.18 960 960; 1704.18 960 960; 1659.18 960 960" keyTimes="0; 0.5; 1" dur="13.37s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+  <use href="#r" x="1084" transform="rotate(1706.55,960,960)">
+    <animateTransform attributeName="transform" type="rotate" values="1706.55 960 960; 1751.55 960 960; 1706.55 960 960" keyTimes="0; 0.5; 1" dur="20.52s" repeatCount="indefinite" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1"/>
+  </use>
+</svg>

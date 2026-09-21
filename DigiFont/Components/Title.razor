@@ -1,0 +1,13 @@
+﻿@if (ChildContent == null)
+{
+    <PageTitle>DigiFont</PageTitle>
+}
+else
+{
+    <PageTitle>@ChildContent - DigiFont</PageTitle>
+}
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+}

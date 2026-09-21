@@ -1,0 +1,13 @@
+﻿@inherits FontSetting<SevenSegmentFontFileBuilder, SevenSegmentFont>
+
+<MudGrid>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.Thickness" Min="0" Max="1" Step="0.001">Thickness: @Font.Thickness.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.Gap" Min="0" Max="1" Step="0.001">Gap: @Font.Gap.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.CornerChamfer" Min="0" Max="1" Step="0.001">Corner Chamfer: @Font.CornerChamfer.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.MiddleChamfer" Min="0" Max="1" Step="0.001">Middle Chamfer: @Font.MiddleChamfer.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.SlantAngle" Min="0" Max="45" Step="0.001">Slant Angle: @($"{Font.SlantAngle:#0.###}°")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.WidthRatio" Min="0" Max="2" Step="0.001">Width Ratio: @Font.WidthRatio.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.CornerGapWarping" Min="0" Max="1" Step="0.001">Corner Gap Warping: @Font.CornerGapWarping.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Builder.Spacing" Min="0" Max="1" Step="0.001">Spacing: @Builder.Spacing.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Builder.SeparatorSize" Min="0" Max="1" Step="0.001">Separator Size: @Builder.SeparatorSize.ToString("P1")</MudSlider></MudItem>
+</MudGrid>

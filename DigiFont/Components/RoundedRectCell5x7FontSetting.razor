@@ -1,0 +1,9 @@
+﻿@inherits FontSetting<DigitalFontFileBuilder<RoundedRectCell5x7Font>, RoundedRectCell5x7Font>
+
+<MudGrid>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.Gap" Min="0" Max="1" Step="0.001">Gap: @Font.Gap.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.CornerRadius" Min="0" Max="1" Step="0.001">Corner Radius: @Font.CornerRadius.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.SlantAngle" Min="0" Max="45" Step="0.001">Slant Angle: @($"{Font.SlantAngle:#0.###}°")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Font.WidthRatio" Min="0" Max="2" Step="0.001">Width Ratio: @Font.WidthRatio.ToString("P1")</MudSlider></MudItem>
+    <MudItem xs="12" md="6"><MudSlider @onchange="OnSettingChanged" @bind-Value="Builder.Spacing" Min="0" Max="1" Step="0.001">Spacing: @Builder.Spacing.ToString("P1")</MudSlider></MudItem>
+</MudGrid>

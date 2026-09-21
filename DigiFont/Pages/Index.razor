@@ -1,0 +1,24 @@
+﻿@page "/"
+@inject IJSRuntime JS
+
+<MudPaper Class="pa-5 preview-paper" Elevation="5">
+    <MudText Style="word-break: break-all;">Preview Text: @previewText</MudText>
+    <MudStack Spacing="3">
+        <MudTextField Class="preview-text-field" Style="font-family: PreviewFont, sans-serif" Typo="Typo.h1" @bind-Value="previewText" @oninput="(e) => previewText = e.Value as string ?? string.Empty" />
+        <MudStack Row StretchItems="StretchItems.Start" Spacing="3">
+            <MudStack>
+                <MudSelect @onchange="OnSettingChanged" @bind-Value="CurrentSetting" Variant="Variant.Outlined" Margin="Margin.Dense" FitContent="true" RelativeWidth="DropdownWidth.Adaptive">
+                    @foreach (var item in fontSettings)
+                    {
+                        <MudSelectItem Value="@item">@item.Name</MudSelectItem>
+                    }
+                </MudSelect>
+            </MudStack>
+            <MudButton OnClick="DownloadOtf" Color="Color.Primary" StartIcon="@Icons.Material.Filled.SaveAlt" Variant="Variant.Outlined" aria-label="Download OpenType Font File" title="Download OpenType Font File">Download OTF</MudButton>
+        </MudStack>
+    </MudStack>
+</MudPaper>
+
+<MudPaper Class="pa-5 mt-5" Elevation="5">
+    <DynamicComponent Type="CurrentSetting.Type" Parameters="CurrentSetting.Parameters" />
+</MudPaper>
