@@ -195,13 +195,25 @@ code {
     text-align: start;
 }
 
+@property --preview-text-shadow-hue {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
 
-:root {
-    --preview-text-shadow-hue: 0;
+@keyframes textShadowHueSpin {
+    from {
+        --preview-text-shadow-hue: 0deg;
+    }
+
+    to {
+        --preview-text-shadow-hue: 360deg;
+    }
 }
 
 .preview-text-field > div > div > input {
     text-shadow: 0 0 0.07em hsl(var(--preview-text-shadow-hue), 100%, 50%), 0 0 0.1em hsl(var(--preview-text-shadow-hue), 100%, 50%);
+    animation: textShadowHueSpin 10s linear infinite;
 }
 
 .preview-paper {

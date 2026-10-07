@@ -21,12 +21,3 @@ export async function updatePreviewFont(contentStreamReference) {
     document.fonts.add(previewFont);
     await previewFont.load();
 }
-
-function updateFrame(timeStamp) {
-    var date = new Date();
-    var hue = (date.getSeconds() + date.getMilliseconds() / 1000) * 36;
-    document.documentElement.style.setProperty('--preview-text-shadow-hue', hue.toString());
-    window.requestAnimationFrame(updateFrame);
-}
-
-window.requestAnimationFrame(updateFrame);
